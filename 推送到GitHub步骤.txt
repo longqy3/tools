@@ -1,9 +1,9 @@
-1.	复制.gitignore文件过去
 
-2.	git init		
+1.	git init		
 	git lfs track "*.psd" "*.png" "*.jpg" "*.fbx" "*.asset" "*.unity" "*.prefab" "*.mp3" "*.wav"
 
-3.	git add .
+下面是提前建好仓的,没有仓直接用GitHub Desktop快一点
+2.	git add .
 	git commit -m "Initial commit"
 	git remote add origin (仓库地址)
 	git push -u origin master
